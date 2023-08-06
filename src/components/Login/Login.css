@@ -1,0 +1,41 @@
+.loginContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    background-color:#ededed;
+    width: 500px;
+    height: min-content;
+    border: 1px solid #ededed;
+    padding: 2rem;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loginInputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+.loginInput{
+    padding: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.inputLabel{
+    font-size: 12px;
+    /* font-weight: bold; */
+}
+.loginText:hover{
+    user-select: none;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
